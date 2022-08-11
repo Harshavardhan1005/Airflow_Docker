@@ -1,6 +1,6 @@
 # Running Apache Airflow in Docker
 
-## step 1:
+## step 1
 
 Docker Engine need to have atleast 4GB memory (ideally 8GB)
 check if you have enough memory by running command
@@ -44,5 +44,5 @@ docker-compose up -d
 
 ## step 6
 
-Open browser and type http://0.0.0.0:8080 to launch the airflow webserver
+Open browser and type (http://0.0.0.0:8080) to launch the airflow webserver
 
