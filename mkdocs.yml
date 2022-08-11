@@ -1,11 +1,11 @@
 # Project information
-site_name: mkdocs
+site_name: Airflow
 # defeine TOC or order of website-
 nav:
   - Home: index.md
 
 site_author: Harshavardhan Achyuta
-site_description: >- Installing Airflow via Docker
+site_description: >-
   DESCRIPTION
 # Repository
 repo_name: Harshavardhan1005/Airflow_Docker
