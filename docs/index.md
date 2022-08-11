@@ -55,7 +55,7 @@ docker-compose up -d
 
 Open browser and type [http://0.0.0.0:8080](http://0.0.0.0:8080) to launch the airflow webserver
 
-[](https://github.com/Harshavardhan1005/Airflow_Docker/blob/main/img/airflow.png)
+![](https://github.com/Harshavardhan1005/Airflow_Docker/blob/main/img/airflow.png)
 
 
 
