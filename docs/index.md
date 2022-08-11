@@ -1,9 +1,14 @@
 # Running Apache Airflow in Docker
 
+# Prerequisites
+
+* Python version > 3.6
+* Install Docker and Docker-Compose
+
 ## step 1
 
-Docker Engine need to have atleast 4GB memory (ideally 8GB)
-check if you have enough memory by running command
+* Docker Engine need to have atleast 4GB memory (ideally 8GB)
+* check if you have enough memory by running command
 ```bash
 docker run --rm "debian:bullseye-slim" bash -c 'numfmt --to iec $(echo $(($(getconf _PHYS_PAGES) * $(getconf PAGE_SIZE))))'
 ```
