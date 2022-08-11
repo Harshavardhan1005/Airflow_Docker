@@ -1,10 +1,14 @@
 # Project information
+<<<<<<< HEAD
 site_name: Airflow_Docker
+=======
+site_name: Airflow
+>>>>>>> edfa85cb9f0712939986bfb28a6a5269677188cb
 # defeine TOC or order of website-
 nav:
   - Home: index.md
 
-site_author: harshavardhan Achyuta
+site_author: Harshavardhan Achyuta
 site_description: >-
   DESCRIPTION
 # Repository
