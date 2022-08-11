@@ -49,5 +49,5 @@ docker-compose up -d
 
 ## step 6
 
-Open browser and type [http://0.0.0.0:8080] (http://0.0.0.0:8080) to launch the airflow webserver
+Open browser and type [http://0.0.0.0:8080](http://0.0.0.0:8080) to launch the airflow webserver
 
