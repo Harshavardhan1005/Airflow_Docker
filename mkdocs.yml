@@ -1,5 +1,5 @@
 # Project information
-site_name: Airflow
+site_name: mkdocs
 # defeine TOC or order of website-
 nav:
   - Home: index.md
