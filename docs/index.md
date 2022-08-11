@@ -13,7 +13,6 @@
 docker run --rm "debian:bullseye-slim" bash -c 'numfmt --to iec $(echo $(($(getconf _PHYS_PAGES) * $(getconf PAGE_SIZE))))'
 ```
 
-
 ## step 2
 
 Download Docker Compose yaml file to deploy airflow on docker compose
@@ -26,6 +25,11 @@ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.3.3/docker-compose.y
 Create dags, logs and plugins folder inside the project directory
 ```bash
 mkdir ./dags ./logs ./plugins
+```
+
+Only for Linux Users
+```bash
+echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
 ## step 4
@@ -49,5 +53,5 @@ docker-compose up -d
 
 ## step 6
 
-Open browser and type [http://0.0.0.0:8080] (http://0.0.0.0:8080) to launch the airflow webserver
+Open browser and type [http://0.0.0.0:8080](http://0.0.0.0:8080) to launch the airflow webserver
 
